@@ -13,12 +13,12 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/es6-react-app/public/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/es6-react-app/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
