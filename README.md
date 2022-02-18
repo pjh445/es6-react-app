@@ -1,1 +1,1 @@
-# my-react-app
+# es6-react-app
