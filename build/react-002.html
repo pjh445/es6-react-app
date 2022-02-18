@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>babel 사용하기</title>
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+	<section id="sample"></section>
+	<!--############################-->
+	<script type="text/babel">
+	const myElement01 = <h1>좋은 하루 되세요~</h1>;
+	//대문자R로 시작하세요
+	ReactDOM.render(myElement01, document.querySelector("section"));
+	</script>
+  </body>
+</html>

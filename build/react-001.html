@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>3개의 CDN을 포함하여 react 사용하기</title>
+	<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+	<section id="sample"></section>
+	
+	<script type="text/babel">
+		//함수 이름은 대문자로 시작합니다.
+		function Hi(){
+			return <h1>안녕하세요 좋은 하루되세요~</h1>;
+		}
+		ReactDOM.render(<Hi/>,  document.querySelector("section"));
+	</script>
+  </body>
+</html>
